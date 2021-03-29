@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <form
+    class="Search"
+  >
+    <div
+      class="MuiFormControl-root"
+    >
+      <label
+        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-filled MuiFormLabel-filled"
+        data-shrink="true"
+        for="input-search"
+      >
+        Search keywords: 
+      </label>
+      <div
+        class="MuiInputBase-root MuiFilledInput-root MuiFilledInput-underline MuiInputBase-formControl"
+      >
+        <input
+          aria-invalid="false"
+          class="MuiInputBase-input MuiFilledInput-input"
+          id="input-search"
+          name="search"
+          type="text"
+          value="rose"
+        />
+      </div>
+    </div>
+    <br />
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+      tabindex="0"
+      type="submit"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        Search Plants
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </form>
+</DocumentFragment>
+`;
