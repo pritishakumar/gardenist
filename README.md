@@ -16,3 +16,7 @@ Welcome to Gardenist! Where you can research different plants and save them in s
 - run `npm install`
 - run `npm start`
 - if window doesn't open automatically, navigate to [http://localhost:3000/](http://localhost:3000)
+
+
+Test user : test@test.com
+Password: password
