@@ -22,8 +22,9 @@ Welcome to Gardenist! Where you can research different plants and save them in s
 - if window doesn't open automatically, navigate to [http://localhost:3000/](http://localhost:3000)
 
 
-#### Test user : test@test.com
-#### Password: password
+#### Test user
+- Username: `test@test.com`
+- Password: `password`
 
 
 #### Frontend Routes
