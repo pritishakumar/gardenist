@@ -1,4 +1,5 @@
 ## Gardenist
+<img src="https://media-exp1.licdn.com/dms/image/C562DAQEuIUK6EdzW2w/profile-treasury-image-shrink_1280_1280/0/1617812798093?e=1618855200&v=beta&t=oOd7xWG-B_UG6xL1qq-T8IQ4R4B78I6NhUmlZMl-5TM" alt="" />
 Welcome to Gardenist! Where you can research different plants and save them in several named lists for easy reference later. A simple user account is required to save lists, but not required to search plant information.
 
 #### Tech Stack:
