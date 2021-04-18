@@ -1,7 +1,7 @@
 ## Gardenist
 Welcome to Gardenist! Where you can research different plants and save them in several named lists for easy reference later. A simple user account is required to save lists, but not required to search plant information.
 
-#### Tech Stack
+#### Tech Stack:
 - Backend = TDD, RESTful API, OOP, Node.js, Express.js, AJAX, Axios, JSDOM, JSON Web Tokens, Joi, Bcrypt, Posgres SQL, Jest, SuperTest
 - Frontend = React.js, React-Router, Redux, Redux-Thunk, , AJAX, Axios, Formik, Yup, Material-UI
 
