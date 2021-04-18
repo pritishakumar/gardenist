@@ -28,7 +28,7 @@ Welcome to Gardenist! Where you can research different plants and save them in s
 
 #### Frontend Routes
 - http://localhost:3000 (/)
-  - home/register/login
+  - home, register and login page
   - authorization required: none
 - http://localhost:3000/user (/user)
   - edit user profile
