@@ -1,6 +1,10 @@
 ## Gardenist
 Welcome to Gardenist! Where you can research different plants and save them in several named lists for easy reference later. A simple user account is required to save lists, but not required to search plant information.
 
+#### Tech Stack
+- Backend = TDD, RESTful API, OOP, Node.js, Express.js, AJAX, Axios, JSDOM, JSON Web Tokens, Joi, Bcrypt, Posgres SQL, Jest, SuperTest
+- Frontend = React.js, React-Router, Redux, Redux-Thunk, , AJAX, Axios, Formik, Yup, Material-UI
+
 #### To run Backend:
 - on a CLI window, navigate to the 'backend' folder
 - run `npm install`
@@ -18,8 +22,8 @@ Welcome to Gardenist! Where you can research different plants and save them in s
 - if window doesn't open automatically, navigate to [http://localhost:3000/](http://localhost:3000)
 
 
-Test user : test@test.com
-Password: password
+#### Test user : test@test.com
+#### Password: password
 
 
 #### Frontend Routes
