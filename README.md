@@ -54,7 +54,7 @@ Welcome to Gardenist! Where you can research different plants and save them in s
 - POST - http://localhost:3000/api/user/register (/api/user/register)
   - REGISTER NEW USER
   - JSON input: `{email, name, password}`
-  - returns: `user`(email, name)`, token`(jwt-token)
+  - returns: `{user`(email, name)`, token}`(jwt-token)
   - authorization required: none
   - throws `BadRequestError` on email duplicates.
 - POST - http://localhost:3000/api/user/login (/api/user/login)
