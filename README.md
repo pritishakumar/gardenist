@@ -11,6 +11,7 @@ Welcome to Gardenist! Where you can research different plants and save them in s
 - run `npm install`
 - run `npm run database`
 - run `npm start`
+- Ctrl C to stop/quit
 ##### Testing Backend
 - On a CLI window, navigate to the 'backend' folder
 - run `npm run database-test`
@@ -21,6 +22,7 @@ Welcome to Gardenist! Where you can research different plants and save them in s
 - run `npm install`
 - run `npm start`
 - if window doesn't open automatically, navigate to [http://localhost:3000/](http://localhost:3000)
+- Ctrl C to stop/quit
 
 
 #### Test user
