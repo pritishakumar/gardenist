@@ -58,7 +58,7 @@ afterAll(async function() {
 
 /* POST /api/lists/new *******************  */
 describe('POST /api/lists/new', function() {
-    const email = "test@test.com";
+
     const listName = "TestList4"
     const listNameExisting = "TestList1"
 

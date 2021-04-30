@@ -14,7 +14,8 @@ const { registerSchema, loginSchema } = require('../helpers/schemas');
 
 const router = express.Router();
 
-/** POST /user/register:   
+/** REGISTER NEW USER
+ * POST /user/register:   
  * JSON Input: {email, name, password}
  * Returns: user(email, name), token(jwt-token)
  * 
@@ -35,7 +36,8 @@ router.post('/register', async function(req, res, next) {
 	}
 });
 
-/** POST /user/login:  
+/** USER LOGIN 
+ * POST /user/login:  
  * JSON Input: {email, password}
  * Returns: user(email, name), token(jwt-token), lists
  *
@@ -57,7 +59,8 @@ router.post('/login', async function(req, res, next) {
 	}
 });
 
-/** PATCH user/edit 
+/** UPDATE USER INFORMATION
+ * PATCH user/edit 
  * JSON Input: { email, password, formData }
  *  where formData = {email, name, password}
  * Returns: user(email, name), token
@@ -81,7 +84,8 @@ router.patch('/edit', verifyToken, async function(req, res, next) {
 	}
 });
 
-/** DELETE user/delete
+/** DELETE USER ACCOUNT
+ * DELETE user/delete
  * JSON Input: {email, password}
  * Returns: {deleted: email}
  *

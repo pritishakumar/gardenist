@@ -8,7 +8,7 @@ import axios from 'axios';
  * */
 
 async function plantLoader(plantId) {
-	if (plantId !== Math.round(plantId)) {
+	if (Number(plantId) !== Math.round(plantId)) {
 		return null;
 	}
 	const url = `http://localhost:3001/api/plants/${plantId}`;

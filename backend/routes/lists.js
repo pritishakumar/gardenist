@@ -3,17 +3,17 @@
 /** Routes for lists. */
 
 
-const joi = require("joi");
+
 const express = require("express");
 const { verifyToken } = require("../middleware/auth");
-// const { BadRequestError } = require("../expressError");
 const List = require("../models/list");
 const { listSchema } = require("../helpers/schemas")
 
 const router = express.Router();
 
 
-/** POST /lists/new:   
+/** CREATE NEW LIST
+ * POST /lists/new:   
  * JSON Input: listName
  * Returns: {list: {list_id, list_name}}
  * 
@@ -34,7 +34,7 @@ router.post("/new", verifyToken, async function (req, res, next) {
 });
 
 
-/** Add specific plant to a list 
+/** ADD SPECIFIC PLANT TO LIST
  * POST /lists/:listId/:plantId:   
  * URL String Input: listId, plantId
  * JSON Input: common
@@ -59,7 +59,7 @@ router.post("/new", verifyToken, async function (req, res, next) {
       }
 });
 
-/** Remove specific plant from a list 
+/** REMOVE SPECIFIC PLANT FROM LIST
  * DELETE /lists/:listId/plantId:   
  * URL String Input: listId, plantId
  * Returns: {list: {list_id, plant_id}}
@@ -72,9 +72,7 @@ router.post("/new", verifyToken, async function (req, res, next) {
     try {
         const listId = req.params.listId;
         const plantId = req.params.plantId;
-        const { email } = res.locals.user;
         const result = await List.removePlant(listId, plantId);
-        // const lists = await List.listNames(email);
         return res.status(200).json({ list: result });
     } catch (err) {
         return next(err);
@@ -82,7 +80,7 @@ router.post("/new", verifyToken, async function (req, res, next) {
 });
 
 
-/** Delete a specific list 
+/** DELETE A LIST
  * DELETE /lists/:listId:   
  * URL String Input: listId
  * Returns: {list : {list_id}}
@@ -96,7 +94,6 @@ router.post("/new", verifyToken, async function (req, res, next) {
         const listId = req.params.listId;
         const { email } = res.locals.user;
         const result = await List.deleteList(email, listId);
-        // const lists = await List.listNames(email);
         return res.status(200).json({ list: result });
     } catch (err) {
         return next(err);
