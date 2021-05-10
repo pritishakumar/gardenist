@@ -52,7 +52,7 @@ function Home() {
 					</Paper>
 				</Grid>
 
-				{!user.email 
+				{!user || !user.email 
         ? (<div>
 						<Grid item xs={12}>
 							<Paper className={classes.paper}>

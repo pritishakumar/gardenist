@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiPaper-root MuiCard-root Login MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <div
+      align="center"
+      class="MuiCardContent-root"
+    >
+      <h3
+        class="MuiTypography-root MuiTypography-h3"
+      >
+        Log In As An Existing User
+      </h3>
+      <div
+        class="UserForm"
+      >
+        <form
+          action="#"
+        >
+          <div
+            class="MuiFormControl-root"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-filled"
+              data-shrink="false"
+              for="email"
+            >
+              Email Address: 
+            </label>
+            <div
+              class="MuiInputBase-root MuiFilledInput-root MuiFilledInput-underline makeStyles-input-2 MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiFilledInput-input"
+                name="email"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="MuiFormControl-root"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-filled"
+              data-shrink="false"
+              for="password"
+            >
+              Password: 
+            </label>
+            <div
+              class="MuiInputBase-root MuiFilledInput-root MuiFilledInput-underline makeStyles-input-2 MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiFilledInput-input"
+                name="password"
+                type="password"
+                value=""
+              />
+            </div>
+          </div>
+          <br />
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-input-2 MuiButton-containedPrimary"
+            tabindex="0"
+            type="submit"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Login
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

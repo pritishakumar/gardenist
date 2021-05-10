@@ -20,3 +20,4 @@ async function plantLoader(plantId) {
 }
 
 export default plantLoader;
+// module.exports = {plantLoader};

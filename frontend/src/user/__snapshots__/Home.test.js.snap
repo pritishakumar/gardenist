@@ -1,0 +1,252 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <br />
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 MuiGrid-align-items-xs-center MuiGrid-justify-xs-space-around"
+    >
+      <div
+        align="center"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10"
+        p="2"
+      >
+        <div
+          class="MuiPaper-root makeStyles-welcome-5 MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <h3
+            class="MuiTypography-root MuiTypography-h3 MuiTypography-colorInherit"
+          >
+            Welcome!
+          </h3>
+          <p>
+            Go ahead and start researching for your dream garden!
+          </p>
+          <a
+            class="makeStyles-link-6"
+            href="/search"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+              tabindex="0"
+              type="submit"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Start Searching!
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </a>
+        </div>
+      </div>
+      <div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+        >
+          <div
+            class="MuiPaper-root makeStyles-paper-7 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              class="MuiPaper-root MuiCard-root Register MuiPaper-elevation1 MuiPaper-rounded"
+            >
+              <div
+                align="center"
+                class="MuiCardContent-root"
+              >
+                <h3
+                  class="MuiTypography-root MuiTypography-h3"
+                >
+                  Register for an Account!
+                </h3>
+                <div
+                  class="UserForm"
+                >
+                  <form
+                    action="#"
+                  >
+                    <div
+                      class="MuiFormControl-root"
+                    >
+                      <label
+                        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-filled"
+                        data-shrink="false"
+                        for="email"
+                      >
+                        Email Address: 
+                      </label>
+                      <div
+                        class="MuiInputBase-root MuiFilledInput-root MuiFilledInput-underline makeStyles-input-8 MuiInputBase-formControl"
+                      >
+                        <input
+                          aria-invalid="false"
+                          class="MuiInputBase-input MuiFilledInput-input"
+                          name="email"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="MuiFormControl-root"
+                    >
+                      <label
+                        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-filled"
+                        data-shrink="false"
+                        for="name"
+                      >
+                        First Name: 
+                      </label>
+                      <div
+                        class="MuiInputBase-root MuiFilledInput-root MuiFilledInput-underline makeStyles-input-8 MuiInputBase-formControl"
+                      >
+                        <input
+                          aria-invalid="false"
+                          class="MuiInputBase-input MuiFilledInput-input"
+                          name="name"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="MuiFormControl-root"
+                    >
+                      <label
+                        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-filled"
+                        data-shrink="false"
+                        for="password"
+                      >
+                        Password: 
+                      </label>
+                      <div
+                        class="MuiInputBase-root MuiFilledInput-root MuiFilledInput-underline makeStyles-input-8 MuiInputBase-formControl"
+                      >
+                        <input
+                          aria-invalid="false"
+                          class="MuiInputBase-input MuiFilledInput-input"
+                          name="password"
+                          type="password"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                    <br />
+                    <button
+                      class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-input-8 MuiButton-containedPrimary"
+                      tabindex="0"
+                      type="submit"
+                    >
+                      <span
+                        class="MuiButton-label"
+                      >
+                        Register
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+        >
+          <div
+            class="MuiPaper-root makeStyles-paper-7 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              class="MuiPaper-root MuiCard-root Login MuiPaper-elevation1 MuiPaper-rounded"
+            >
+              <div
+                align="center"
+                class="MuiCardContent-root"
+              >
+                <h3
+                  class="MuiTypography-root MuiTypography-h3"
+                >
+                  Log In As An Existing User
+                </h3>
+                <div
+                  class="UserForm"
+                >
+                  <form
+                    action="#"
+                  >
+                    <div
+                      class="MuiFormControl-root"
+                    >
+                      <label
+                        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-filled"
+                        data-shrink="false"
+                        for="email"
+                      >
+                        Email Address: 
+                      </label>
+                      <div
+                        class="MuiInputBase-root MuiFilledInput-root MuiFilledInput-underline makeStyles-input-8 MuiInputBase-formControl"
+                      >
+                        <input
+                          aria-invalid="false"
+                          class="MuiInputBase-input MuiFilledInput-input"
+                          name="email"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="MuiFormControl-root"
+                    >
+                      <label
+                        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-filled"
+                        data-shrink="false"
+                        for="password"
+                      >
+                        Password: 
+                      </label>
+                      <div
+                        class="MuiInputBase-root MuiFilledInput-root MuiFilledInput-underline makeStyles-input-8 MuiInputBase-formControl"
+                      >
+                        <input
+                          aria-invalid="false"
+                          class="MuiInputBase-input MuiFilledInput-input"
+                          name="password"
+                          type="password"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                    <br />
+                    <button
+                      class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-input-8 MuiButton-containedPrimary"
+                      tabindex="0"
+                      type="submit"
+                    >
+                      <span
+                        class="MuiButton-label"
+                      >
+                        Login
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

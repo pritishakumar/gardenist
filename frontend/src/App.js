@@ -25,10 +25,8 @@ function App() {
 	const classes = useStyles();
 	return (
 		<div className={classes.appRoot}>
-			<BrowserRouter>
 				<Header />
 				<Routes />
-			</BrowserRouter>
 		</div>
 	);
 }
